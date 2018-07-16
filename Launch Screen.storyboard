@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heros" translatesAutoresizingMaskIntoConstraints="NO" id="cYf-8m-Xkd">
+                                <rect key="frame" x="155.66666666666666" y="299.66666666666669" width="142.99999999999997" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="EM3-7J-TkH"/>
+                                    <constraint firstAttribute="width" constant="143" id="pcr-vb-y9B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="출격가능?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXM-K9-VA6">
+                                <rect key="frame" x="89" y="445" width="236" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="236" id="LOX-IJ-Ova"/>
+                                    <constraint firstAttribute="height" constant="60" id="vLa-3V-Two"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="app icon designed by Freepic,Flat Icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSd-qG-VxJ">
+                                <rect key="frame" x="59.666666666666657" y="688" width="295" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="nhM-Cs-0F8"/>
+                                    <constraint firstAttribute="height" constant="21" id="rEm-gd-bJJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0026905420236289501" green="0.63423275947570801" blue="0.90867727994918823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cYf-8m-Xkd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Jo-aL-etX"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cSd-qG-VxJ" secondAttribute="bottom" constant="27" id="5xd-u1-srA"/>
+                            <constraint firstItem="wXM-K9-VA6" firstAttribute="top" secondItem="cYf-8m-Xkd" secondAttribute="bottom" constant="8.3300000000000001" id="FPt-j1-ygw"/>
+                            <constraint firstItem="cSd-qG-VxJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kkp-56-xY5"/>
+                            <constraint firstItem="cYf-8m-Xkd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="20" id="eRm-44-SyU"/>
+                            <constraint firstItem="wXM-K9-VA6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sUb-gd-863"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.275362318840585" y="373.36956521739131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heros" width="307" height="352"/>
+    </resources>
+</document>
